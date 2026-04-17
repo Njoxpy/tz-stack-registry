@@ -53,6 +53,7 @@ Every `stack.json` entry must include at least one verifiable source in the `sou
   - Phrased as it was actually asked, where possible.
   - Tagged with the category: `Technical Screening`, `Coding Challenge`, or `System Design`.
 - Never include proprietary information, internal codebase details, or anything that violates an NDA.
+- Anonymize every testimony before submission — strip names, dates, team-specific details, and verbatim quotes. See the full rules in the [Privacy Policy](privacy-policy.md#3-anonymization-rules-for-interview-testimony).
 
 ## 6. Review Process
 
@@ -60,7 +61,16 @@ Every `stack.json` entry must include at least one verifiable source in the `sou
 - A maintainer may request additional sources if a claim is ambiguous.
 - Entries without sufficient proof are closed, not merged with a "TODO".
 
-## 7. Updating Existing Entries
+## 7. Privacy and Conduct
+
+All contributors must follow:
+
+- [Privacy Policy](privacy-policy.md) — what this registry will and will not contain, and how anonymization works.
+- [Code of Conduct](code-of-conduct.md) — expectations for contributor behavior.
+
+Violations of either document are grounds for rejecting a PR regardless of technical quality.
+
+## 8. Updating Existing Entries
 
 - Stacks change. When submitting an update, explain *what* changed and *why* (new source, migration announcement, etc.) in the PR description.
 - Update `last_verified` on every change.

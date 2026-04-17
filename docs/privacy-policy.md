@@ -44,7 +44,7 @@ By submitting a contribution, you confirm that:
 
 - The content is yours to share, or is drawn from a public source you have linked.
 - Publishing it does not violate any NDA, employment agreement, or other legal obligation you are aware of.
-- You license your contribution under the repository's [MIT License](../LICENSE).
+- You license your contribution under the repository's MIT License (see the `LICENSE` file at the repository root).
 
 Contributors may submit anonymously via a PR from a pseudonymous account. Maintainers will not demand real-name identification.
 

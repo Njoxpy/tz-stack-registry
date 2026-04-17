@@ -32,9 +32,11 @@ Inside each company folder you'll find:
 Before submitting, read:
 
 - [docs/contribution-standards.md](docs/contribution-standards.md) — submission rules and the "Elite Standard".
+- [docs/privacy-policy.md](docs/privacy-policy.md) — what the registry will and will not publish, and how to anonymize interview testimony.
+- [docs/code-of-conduct.md](docs/code-of-conduct.md) — expectations for everyone in the project.
 - [docs/interview-guidelines.md](docs/interview-guidelines.md) — how to use this data to prepare for interviews.
 
-All submissions must include a **source of proof** (job link, engineering blog, or verified employee testimony). Rumor-based entries are rejected.
+All submissions must include a **source of proof** (job link, engineering blog, or verified employee testimony). Rumor-based entries are rejected. Interview testimony must be anonymized per the Privacy Policy.
 
 ## Validation
 
@@ -44,6 +46,19 @@ Run the validator locally before submitting a PR:
 pip install jsonschema
 python scripts/validator.py
 ```
+
+## Documentation Site
+
+A browsable MkDocs site is configured at the repo root ([mkdocs.yml](mkdocs.yml)):
+
+```bash
+./scripts/setup-mkdocs.sh        # one-time: creates .venv, installs deps, builds
+source .venv/bin/activate
+mkdocs serve                      # preview at http://127.0.0.1:8000
+./scripts/deploy.sh               # build and (after confirmation) gh-deploy
+```
+
+The site is configured to publish to the `gh-pages` branch of this repository. Enable GitHub Pages for that branch in the repo settings after the first deploy.
 
 ## Disclaimer
 

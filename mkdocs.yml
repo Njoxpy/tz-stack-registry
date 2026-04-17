@@ -1,0 +1,72 @@
+site_name: tz-stack-registry
+site_description: Community-sourced registry of Tanzanian company tech stacks and interview patterns.
+site_author: tz-stack-registry contributors
+
+repo_url: https://github.com/Njoxpy/tz-stack-registry
+repo_name: Njoxpy/tz-stack-registry
+edit_uri: edit/main/docs/
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  icon:
+    repo: fontawesome/brands/github
+
+nav:
+  - Home: index.md
+  - Using the registry:
+      - Interview guidelines: interview-guidelines.md
+  - Contributing:
+      - Contribution standards: contribution-standards.md
+      - Privacy policy: privacy-policy.md
+      - Code of conduct: code-of-conduct.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - tables
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Njoxpy/tz-stack-registry
+      name: Source repository
