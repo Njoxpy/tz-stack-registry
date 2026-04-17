@@ -1,0 +1,17 @@
+{
+  "company_name": "",
+  "industry": "logistics",
+  "frontend": [],
+  "backend": [],
+  "database": [],
+  "cloud_infra": [],
+  "mobile_tech": [],
+  "sources": [
+    {
+      "type": "job_post",
+      "url": "https://example.com/job-posting",
+      "note": "Replace with a real source. At least one is required."
+    }
+  ],
+  "last_verified": "2026-04-17"
+}
