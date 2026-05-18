@@ -9,6 +9,10 @@ Every `stack.json` entry must include at least one verifiable source in the `sou
 | Type                 | Example                                                      | Strength  |
 | -------------------- | ------------------------------------------------------------ | --------- |
 | `job_post`           | Link to a live or archived job description listing technologies | Strong    |
+| `careers_page`       | Official company careers page listing roles and required technologies | Moderate  |
+| `about_us_page`      | Official corporate "About Us" page — useful for verifying the company exists; rarely lists stack | Weak      |
+| `linkedin`           | Official company LinkedIn page or a job listing on LinkedIn (often mirrors job posts) | Moderate  |
+| `social_media`       | Official Twitter/X, Instagram, or Facebook account — verification only; tech mentions are rare and low-trust | Weak      |
 | `engineering_blog`   | Company engineering blog post describing their stack         | Strongest |
 | `conference_talk`    | Recorded talk or slides by a company engineer                | Strong    |
 | `github`             | Public repositories owned by the company                     | Strong    |

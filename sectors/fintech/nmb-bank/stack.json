@@ -1,0 +1,32 @@
+{
+  "company_name": "NMB Bank",
+  "industry": "fintech",
+  "frontend": [],
+  "backend": [],
+  "database": [],
+  "cloud_infra": [],
+  "mobile_tech": [],
+  "sources": [
+    {
+      "type": "careers_page",
+      "url": "https://www.nmbbank.co.tz/careers",
+      "note": "Public careers landing page."
+    },
+    {
+      "type": "careers_page",
+      "url": "https://careers.nmbbank.co.tz/nmb_career/career.aspx",
+      "note": "Internal NMB careers portal hosting job listings."
+    },
+    {
+      "type": "about_us_page",
+      "url": "https://www.nmbbank.co.tz/about-us/nmb-at-a-glance/history",
+      "note": "Corporate history / about page — verification of company identity."
+    },
+    {
+      "type": "linkedin",
+      "url": "https://tz.linkedin.com/company/nmb-plc",
+      "note": "Official LinkedIn company page."
+    }
+  ],
+  "last_verified": "2026-05-18"
+}

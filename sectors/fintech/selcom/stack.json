@@ -1,0 +1,27 @@
+{
+  "company_name": "Selcom",
+  "industry": "fintech",
+  "frontend": [],
+  "backend": [],
+  "database": [],
+  "cloud_infra": [],
+  "mobile_tech": [],
+  "sources": [
+    {
+      "type": "careers_page",
+      "url": "https://www.selcom.net/careers",
+      "note": "Official Selcom careers page. Tech arrays pending confirmation from individual job posts."
+    },
+    {
+      "type": "about_us_page",
+      "url": "https://www.selcom.net/about-us",
+      "note": "Corporate about page — verification of company identity."
+    },
+    {
+      "type": "linkedin",
+      "url": "https://tz.linkedin.com/company/selcom-tanzania",
+      "note": "Official LinkedIn company page."
+    }
+  ],
+  "last_verified": "2026-05-18"
+}

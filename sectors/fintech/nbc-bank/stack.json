@@ -1,0 +1,32 @@
+{
+  "company_name": "NBC Bank",
+  "industry": "fintech",
+  "frontend": [],
+  "backend": [],
+  "database": [],
+  "cloud_infra": [],
+  "mobile_tech": [],
+  "sources": [
+    {
+      "type": "careers_page",
+      "url": "https://www.nbc.co.tz/en/vacancies/",
+      "note": "Vacancies landing page on the corporate site."
+    },
+    {
+      "type": "careers_page",
+      "url": "https://absa.wd3.myworkdayjobs.com/NBC_Careers",
+      "note": "NBC job listings hosted on Absa's Workday tenant (NBC is part of the Absa group)."
+    },
+    {
+      "type": "about_us_page",
+      "url": "https://www.nbc.co.tz/en/about-us/",
+      "note": "Corporate about page — verification of company identity."
+    },
+    {
+      "type": "linkedin",
+      "url": "https://tz.linkedin.com/company/nbc-limited",
+      "note": "Official LinkedIn company page."
+    }
+  ],
+  "last_verified": "2026-05-18"
+}

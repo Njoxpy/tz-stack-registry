@@ -60,7 +60,7 @@
         "properties": {
           "type": {
             "type": "string",
-            "enum": ["job_post", "engineering_blog", "conference_talk", "employee_testimony", "github"]
+            "enum": ["job_post", "careers_page", "about_us_page", "linkedin", "social_media", "engineering_blog", "conference_talk", "employee_testimony", "github"]
           },
           "url": { "type": "string", "format": "uri" },
           "note": { "type": "string" }

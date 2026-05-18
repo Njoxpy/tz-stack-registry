@@ -1,0 +1,22 @@
+{
+  "company_name": "Stanbic Bank Tanzania",
+  "industry": "fintech",
+  "frontend": [],
+  "backend": [],
+  "database": [],
+  "cloud_infra": [],
+  "mobile_tech": [],
+  "sources": [
+    {
+      "type": "about_us_page",
+      "url": "https://www.stanbicbank.co.tz/tanzania/personal/about-us",
+      "note": "Corporate about-us page; mobile app distributed via iOS App Store, Google Play, and Huawei AppGallery. Specific stack pending confirmation."
+    },
+    {
+      "type": "linkedin",
+      "url": "https://tz.linkedin.com/company/stanbic-bank-tanzania",
+      "note": "Official LinkedIn company page."
+    }
+  ],
+  "last_verified": "2026-05-18"
+}

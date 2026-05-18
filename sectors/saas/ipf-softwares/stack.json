@@ -1,0 +1,27 @@
+{
+  "company_name": "iPF Softwares",
+  "industry": "saas",
+  "frontend": ["React", "Next.js", "Remix", "Tailwind CSS"],
+  "backend": ["Spring Boot", "Node.js", "Nest.js", "Java", "FastAPI"],
+  "database": ["Oracle", "MySQL", "MongoDB"],
+  "cloud_infra": ["AWS", "Google Cloud", "Azure", "Digital Ocean", "Docker", "CircleCI", "GitHub"],
+  "mobile_tech": ["Flutter", "Kotlin", "Java", "Swift"],
+  "sources": [
+    {
+      "type": "careers_page",
+      "url": "https://www.ipfsoftwares.com/careers",
+      "note": "Careers page explicitly lists the company's tech across Web Development, Mobile Development, Cloud & DevOps, and AI & ML sections."
+    },
+    {
+      "type": "about_us_page",
+      "url": "https://www.ipfsoftwares.com/",
+      "note": "Corporate homepage — verification of company identity."
+    },
+    {
+      "type": "linkedin",
+      "url": "https://tz.linkedin.com/company/ipfsoftwares",
+      "note": "Official LinkedIn company page."
+    }
+  ],
+  "last_verified": "2026-05-18"
+}
