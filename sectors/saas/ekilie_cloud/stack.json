@@ -4,8 +4,8 @@
   "frontend": ["React","Tanstack Router"],
   "backend": ["Go", "VintLang", "Zig"],
   "database": ["Postgres", "Redis"],
-  "cloud_infra": ["Docker", "GitHub-powered CI/CD", "Zig (performance-critical tooling), Go"],
-  "mobile_tech": ["React Native"],
+  "cloud_infra": ["Docker","K8s", "GitHub-powered CI/CD", "Zig (performance-critical tooling), Go"],
+  "mobile_tech": ["React Native","swift","Jetpack compose"],
   "sources": [
     {
       "type": "careers_page",
