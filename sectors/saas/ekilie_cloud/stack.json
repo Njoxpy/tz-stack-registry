@@ -1,0 +1,27 @@
+{
+  "company_name": "Ekilie Cloud",
+  "industry": "cloud infrastructure",
+  "frontend": ["React","Tanstack Router"],
+  "backend": ["Go", "VintLang", "Zig"],
+  "database": ["Postgres", "Redis"],
+  "cloud_infra": ["Docker","K8s", "GitHub-powered CI/CD", "Zig (performance-critical tooling), Go"],
+  "mobile_tech": ["React Native","swift","Jetpack compose"],
+  "sources": [
+    {
+      "type": "careers_page",
+      "url": "https://www.ekilie.cloud/careers",
+      "note": "Careers page explicitly lists the company's tech across Web Development, Mobile Development, Cloud & DevOps, and AI & ML sections."
+    },
+    {
+      "type": "about_us_page",
+      "url": "https://www.ekilie.cloud/",
+      "note": "Corporate homepage verification of company identity."
+    },
+    {
+      "type": "linkedin",
+      "url": "https://tz.linkedin.com/company/ekilie",
+      "note": "Official LinkedIn company page."
+    }
+  ],
+  "last_verified": "2026-08-13"
+}
